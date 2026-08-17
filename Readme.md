@@ -6,8 +6,8 @@ This repository contains all the practical assignments, terminal execution logs,
 
 ## 📂 Practicals Index
 
-| Practical No. | Topic / Description | Status | Files / Assets |
-| :---: | :--- | :---: | :--- |
+| Practical No. | Topic / Description | Status |
+| :---: | :--- | :---: |
 | **01** | Install Linux, explore file system hierarchy and basic directory commands  | Completed |
 <!-- | **02** | *[Add Topic Name, e.g., CPU Scheduling Algorithms]* | Pending | `2nd/` |
 | **03** | *[Add Topic Name, e.g., Shell Scripting Basics]* | Pending | `3rd/` |
