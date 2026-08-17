@@ -26,8 +26,6 @@ This repository contains all the practical assignments, terminal execution logs,
 ```text
 .
 ├── 1st/
-│   ├── Part1.pdf
-│   └── Part2.pdf
 ├── 2nd/
 ├── 3rd/
 ├── ...
