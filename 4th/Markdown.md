@@ -1,4 +1,4 @@
-# Practical 03: Process Management & Monitoring in Linux
+# Practical 04: Process Management & Monitoring in Linux
 
 ## 🎯 Objective
 
