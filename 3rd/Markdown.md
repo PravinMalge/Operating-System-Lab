@@ -1,4 +1,4 @@
-# Practical 02: Tracing System Calls using `strace`
+# Practical 03: Tracing System Calls using `strace`
 
 ## 🎯 Objective
 To understand how user-space applications interact with the Linux kernel by tracing system calls using the `strace` utility on a simple C program.
