@@ -27,7 +27,8 @@ ls -l file.txt
 
 **Observation:** Displays default permissions assigned upon creation (e.g., `-rw-rw-r--`).
 
-> 📸 **Screenshot:**
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/ec98c8b5-05ee-4a57-b8d3-847c1e7b8f1c" />
+
 > 
 
 ---
@@ -54,7 +55,8 @@ Modify file permissions using 3-digit octal codes representing User, Group, and 
    ls -l file.txt
    ```
 
-> 📸 **Screenshot:**
+<img width="1440" height="900" alt="2" src="https://github.com/user-attachments/assets/559811b9-4b65-4cc4-9ec3-4a11fb002d0b" />
+
 > 
 
 ---
@@ -80,7 +82,8 @@ Modify permissions using user categories (`u`, `g`, `o`, `a`) and operators (`+`
    ls -l file.txt
    ```
 
-> 📸 **Screenshot:**
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/ec6af372-b60c-4803-9406-b44e38ea93a0" />
+
 > 
 
 ---
@@ -107,7 +110,8 @@ Inspect user identities and transfer file ownership attributes to root using sup
    ls -l file.txt
    ```
 
-> 📸 **Screenshot:**
+<img width="1440" height="900" alt="4" src="https://github.com/user-attachments/assets/314271a6-af49-454d-968c-bd24881952e1" />
+
 > 
 
 ---
@@ -137,7 +141,8 @@ View and modify the system `umask` to control default permissions for newly crea
    ls -ld private.txt private_dir
    ```
 
-> 📸 **Screenshot:**
+<img width="1440" height="900" alt="5" src="https://github.com/user-attachments/assets/1e0a2d0d-ba28-4770-a663-2ec6f929504a" />
+
 > 
 
 ---
