@@ -133,8 +133,11 @@ Create the source file using `nano`:
 nano page_replacement.c
 ```
 
-> 📸 **Screenshot Placeholder:**
-> ![Source Code Editor](assets/1.png)
+> 📸 **Screenshot :**
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/ded3c474-7bcc-4f64-974b-6aefc25f4b42" />
+<img width="1440" height="900" alt="2" src="https://github.com/user-attachments/assets/f3c19429-f76d-4752-969a-accd23d4c92e" />
+
+
 
 ---
 
@@ -187,8 +190,9 @@ Page 5: 5 4 2 (Fault)
 Total LRU page faults: 6
 ```
 
-> 📸 **Screenshot Placeholder:**
-> ![Terminal Execution](assets/2.png)
+> 📸 **Screenshot :**
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/ca55f234-96bb-4c67-9764-e80c91b9abfc" />
+
 
 ---
 
