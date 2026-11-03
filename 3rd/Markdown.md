@@ -32,6 +32,10 @@ Copyright (c) 1991-2026 The strace developers https://strace.io.
 This is free software; see the source for copying conditions.
 ```
 
+> 📸 **Screenshot:**
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/e5febeff-f646-47a1-99db-7ee624c9341a" />
+
+
 ---
 
 ### Step 2: Write, Compile, and Execute C Program
@@ -52,6 +56,10 @@ This is free software; see the source for copying conditions.
 Hello Duniya
 ```
 
+> 📸 **Screenshot:**
+<img width="1440" height="900" alt="2" src="https://github.com/user-attachments/assets/9de3f20c-fa55-4e69-bf94-388ecd7e0ca6" />
+
+
 ---
 
 ### Step 3: Trace System Calls during Execution
@@ -60,11 +68,15 @@ Trace system call invocations for the binary:
 strace ./hello
 ```
 **Key System Calls Observed:**
-* `execve()` - Program execution initialization.
-* `openat()`, `read()`, `fstat()`, `close()` - Dynamic linking and shared library operations (`libc.so.6`).
-* `mmap()`, `mprotect()`, `brk()` - Memory allocation and protection setup.
-* `write(1, "Hello Duniya\n", 13)` - Output operation to stdout.
-* `exit_group(0)` - Process termination.
+- `execve()` - Program execution initialization.
+- `openat()`, `read()`, `fstat()`, `close()` - Dynamic linking and shared library operations (`libc.so.6`).
+- `mmap()`, `mprotect()`, `brk()` - Memory allocation and protection setup.
+- `write(1, "Hello Duniya\n", 13)` - Output operation to stdout.
+- `exit_group(0)` - Process termination.
+
+> 📸 **Screenshot:**
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/3fc3d837-fc32-45e7-9d8c-80e607b81c9b" />
+
 
 ---
 
@@ -75,7 +87,7 @@ strace -c ./hello
 ```
 **Output Summary Table:**
 ```text
-% time     seconds  usecs/call     calls    errors syscall
+% time     seconds  usecs/call      calls    errors syscall
 ------ ----------- ----------- --------- --------- ----------------
  39.46    0.000103          25         4           mprotect
  21.67    0.000053           7         7           mmap
@@ -89,13 +101,17 @@ strace -c ./hello
   2.30    0.000006           6         1           getrandom
   2.30    0.000006           6         1           rseq
   1.92    0.000005           2         2           set_robust_list
-  0.00    0.000000           0         1         1 faccessat
+  0.00    0.000000           0         1        1 faccessat
   0.00    0.000000           0         2           openat
   0.00    0.000000           0         1           read
   0.00    0.000000           0         1           execve
 ------ ----------- ----------- --------- --------- ----------------
-100.00    0.000261                    56         1 total
+100.00    0.000261                    56        1 total
 ```
+
+> 📸 **Screenshot:**
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/491100e5-9530-4708-9003-85ab24ffa689" />
+
 
 ---
 
@@ -105,6 +121,10 @@ Save system call details for analysis:
 strace -o trace.txt ./hello
 cat trace.txt
 ```
+
+> 📸 **Screenshot:**
+<img width="1440" height="900" alt="5" src="https://github.com/user-attachments/assets/c28eff2c-5445-4a8b-9f31-0aafec5d5219" />
+
 
 ---
 
