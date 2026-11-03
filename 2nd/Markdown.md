@@ -35,3 +35,5 @@ Below is the structured summary of the 15 basic Linux commands executed during t
 <img width="1001" height="480" alt="2_page-0005" src="https://github.com/user-attachments/assets/51fb6204-c29c-46f1-84b8-2ce4d503d455" />
 
 
+
+
