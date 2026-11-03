@@ -30,7 +30,8 @@ passwd: password updated successfully
 ```
 
 > 📸 **Screenshot Placeholder:**
-> ![Create User](assets/1.png)
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/f5366e3b-5b62-47ff-a638-de47cb0cd542" />
+
 
 ---
 
@@ -56,7 +57,8 @@ Inspect identity metrics, UID, GID, group associations, and system account recor
    ```
 
 > 📸 **Screenshot Placeholder:**
-> ![View User Information](assets/2.png)
+<img width="1440" height="900" alt="2" src="https://github.com/user-attachments/assets/33d31dd9-5ea8-4d60-af84-2478cc2e9f32" />
+
 
 ---
 
@@ -78,7 +80,8 @@ Create a new supplementary group named `labgroup` and verify its existence:
    ```
 
 > 📸 **Screenshot Placeholder:**
-> ![Create Group](assets/3.png)
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/50c35ea8-13cb-4657-b847-f28b77480f27" />
+
 
 ---
 
@@ -98,7 +101,8 @@ uid=1001(student1) gid=1001(student1) groups=1001(student1),1002(labgroup)
 ```
 
 > 📸 **Screenshot Placeholder:**
-> ![Add User to Group](assets/4.png)
+<img width="1440" height="900" alt="4" src="https://github.com/user-attachments/assets/db954cc6-fe7d-48ac-8493-d69906b5a2d4" />
+
 
 ---
 
@@ -113,6 +117,7 @@ sudo gpasswd -d student1 labgroup
 ```text
 Removing user student1 from group labgroup
 ```
+<img width="1440" height="900" alt="5" src="https://github.com/user-attachments/assets/7f7020e4-d25e-45fb-8ac6-6a8f0c46f4a6" />
 
 ---
 
@@ -129,29 +134,10 @@ New password:
 Retype new password:
 passwd: password updated successfully
 ```
+<img width="1440" height="900" alt="6" src="https://github.com/user-attachments/assets/7eb3c469-bf0f-4682-9b08-686c078be7e5" />
 
 ---
 
-### Experiment 7: Delete User Account
-Remove user `student1` from the system:
-
-```bash
-sudo userdel student1
-```
-
----
-
-### Experiment 8: Delete Group
-Delete group `labgroup` from the system:
-
-```bash
-sudo groupdel labgroup
-```
-
-> 📸 **Screenshot Placeholder:**
-> ![Delete User and Group](assets/5.png)
-
----
 
 ## 📊 Observation and Result Table
 
