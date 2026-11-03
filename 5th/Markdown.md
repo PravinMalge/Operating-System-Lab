@@ -26,7 +26,8 @@ echo "Sample document" > "$HOME/backup_lab/source/docs/sample.txt"
 ```
 
 > 📸 **Screenshot:**
-> ![Create Test Directory and Files](assets/1.png)
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/703a0f2b-f697-48e4-bb6a-88f06ea096cf" />
+
 
 ---
 
@@ -89,7 +90,9 @@ fi
 ```
 
 > 📸 **Screenshot:**
-> ![Nano Backup Script Editor](assets/2.png)
+<img width="1440" height="900" alt="2" src="https://github.com/user-attachments/assets/ddbaea8f-fd6e-4a5e-9190-a3c2ee175b51" />
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/b1274493-a804-4c12-902d-3da5c2ed943a" />
+
 
 ---
 
@@ -119,7 +122,8 @@ Backup file: /home/pravin-malge/backup_lab/backups/source_backup_20261023_151713
 ```
 
 > 📸 **Screenshot:**
-> ![Run Backup Script](assets/3.png)
+<img width="1440" height="900" alt="4" src="https://github.com/user-attachments/assets/52cc6cc3-40bd-4839-bfe0-8df896bdfa9a" />
+
 
 ---
 
@@ -146,7 +150,8 @@ source/notes.txt
 ```
 
 > 📸 **Screenshot:**
-> ![Verify Backup Archive](assets/4.png)
+<img width="1440" height="900" alt="5" src="https://github.com/user-attachments/assets/c71eb79f-9931-431f-8dff-84acb44ea04b" />
+
 
 ---
 
@@ -176,7 +181,8 @@ Test restoring files from the `.tar.gz` archive into a separate restore director
 ```
 
 > 📸 **Screenshot:**
-> ![Restore Test Verification](assets/5.png)
+<img width="1440" height="900" alt="6" src="https://github.com/user-attachments/assets/aa989be4-2de3-4f40-8cff-7d552347417c" />
+
 
 ---
 
