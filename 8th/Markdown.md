@@ -77,7 +77,8 @@ Swap:          4095           0        4095
 ```
 
 > 📸 **Screenshot:**
-> ![Free Command Execution](assets/free_execution.png)
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/a802cfa7-c991-45d0-a2f4-8f9234995e49" />
+
 
 ---
 
@@ -135,7 +136,8 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 ```
 
 > 📸 **Screenshot:**
-> ![Vmstat Command Execution](assets/vmstat_execution.png)
+<img width="1440" height="900" alt="2" src="https://github.com/user-attachments/assets/2221f47f-3ac0-4b0f-8f0b-7e008d7af723" />
+
 
 ---
 
