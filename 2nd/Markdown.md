@@ -1,4 +1,4 @@
-# Operating System Practical - 01: Basic Linux Commands
+# Operating System Practical - 02: Basic Linux Commands
 
 ## 📋 Executed Commands Overview
 
