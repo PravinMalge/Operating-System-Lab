@@ -76,3 +76,4 @@ To configure a virtual environment using Oracle VM VirtualBox, allocate system h
 ## 🏁 Conclusion
 
 The setup and configuration of the Ubuntu Linux virtual machine in Oracle VM VirtualBox were completed successfully. The guest OS is now ready for performing operating system laboratory practicals and terminal utilities.
+
