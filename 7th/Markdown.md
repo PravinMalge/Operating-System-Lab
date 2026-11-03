@@ -104,8 +104,9 @@ Create and edit the C file using `nano`:
 nano producer_consumer.c
 ```
 
-> 📸 **Screenshot:**
-> ![Nano Editor](assets/nano_producer_consumer.png)
+
+<img width="1440" height="900" alt="1" src="https://github.com/user-attachments/assets/8a8a735e-9204-458d-9a4c-a64b732bea3c" />
+
 
 ---
 
@@ -147,8 +148,9 @@ Consumer consumed: 9
 Consumer consumed: 10
 ```
 
-> 📸 **Screenshot:**
-> ![Terminal Output](assets/execution_output.png)
+
+<img width="1440" height="900" alt="3" src="https://github.com/user-attachments/assets/f66e731f-ab32-4dec-9a25-435b25f8f210" />
+
 
 ---
 
